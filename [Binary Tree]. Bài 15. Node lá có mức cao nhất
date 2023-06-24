@@ -1,0 +1,21 @@
+Cho cây nhị phân, nhiệm vụ của bạn là đếm xem trên cây có bao nhiêu node lá có chiều cao lớn nhất, node gốc được quy định có chiều cao là 0, chiều cao của các node khác được tính bằng số cạnh trên đường đi ngắn nhất từ nó tới gốc.
+
+Input Format
+
+Dòng đâu tiên là N : số lượng cạnh của cây. Các dòng tiếp theo mô tả cây nhị phân bằng 3 số (x, y, z) : x là node cha, y là node con, z có thể nhận 1 trong 2 giá trị là L và R, tương ứng với y là node con bên trái hoặc node con bên phải của x.
+
+Constraints
+
+1<=N<=1000; 1<=x,y<=10000;
+
+Output Format
+
+In ra số node lá có chiều cao lớn nhất
+
+Sample Input 0
+
+6
+1 2 L 1 3 R 2 4 L 2 5 R 3 6 L 3 7 R 
+Sample Output 0
+
+4
