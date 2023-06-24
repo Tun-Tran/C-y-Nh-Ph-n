@@ -1,0 +1,24 @@
+Cho phép duyệt câu theo thứ tự giữa (Inorder) và duyệt trước (Preorder), bạn hãy in ra cây dưới dạng dạng duyệt sau (Postorder).
+
+Thứ tự duyệt Preorder : 1 2 4 5 3 6 7. Thứ tự duyệt Inorder : 4 2 5 1 6 3 7. Thứ tự duyệt Postorder : 4 5 2 6 7 3 1.image
+
+Input Format
+
+Dòng đầu tiên là N : số lượng node của cây. Dòng thứ 2 là thứ tự duyệt trước của cây. Dòng thứ 3 là thứ tự duyệt giữa của cây.
+
+Constraints
+
+1<=N<=100;
+
+Output Format
+
+In ra thứ tự duyệt sau của cây.
+
+Sample Input 0
+
+7
+1 2 4 5 3 6 7 
+4 2 5 1 6 3 7 
+Sample Output 0
+
+4 5 2 6 7 3 1 
